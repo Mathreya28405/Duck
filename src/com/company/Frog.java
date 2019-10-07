@@ -10,6 +10,8 @@ public class Frog {
         name = n;
         xPos=x;
         yPos=y;
+       /* int z = 1;
+        int numSpace = z; */
         System.out.println(name);
     }
     public void setPos(int x, int y)	// accessor methods
@@ -36,6 +38,9 @@ public class Frog {
     public void moveNorth()
     {
         yPos=yPos+1;
+    }
+    /* public void jump() {
+        xPos = xPos + */
     }
     //TODO jump method move up and to the right
     //This method should take an integer argument.  This argument controls how many spaces
@@ -70,6 +75,9 @@ public class Frog {
         //f1.visit(f2);
         System.out.println(f1);
         System.out.println(f2);
+
+        /* Frog f3 */
+
 
         // make a new frog named Frank.  have him jump twice and then go visit Freddy.
 
