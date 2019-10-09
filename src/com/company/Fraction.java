@@ -20,6 +20,7 @@ public class Fraction {
         denominator = d;
     }
 
+
     //TODO default constructor (no arguments)
 
     public int getNum()

@@ -51,8 +51,9 @@ public class Frog {
          xPos = xPos + z;
          yPos = yPos + z;
     }
-    public void visit(Frog fa) {
-        fa.
+    public void visit(Frog other) {
+        this.xPos = other.xPos;
+        this.yPos = other.yPos;
 
     }
     //TODO jump method move up and to the right
