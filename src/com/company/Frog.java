@@ -1,4 +1,12 @@
 package com.company;
+/* Also included is the frog class, also with a constructor, methods and main().  You must add the following:
+A jump() method.  The method takes an integer as an argument.  The frog will move this number of spaces up and to the right.  The method returns no value.
+A visit() method.   The method takes another Frog as an argument.  The frog will move to the location of its friend for a visit.
+Uncomment the code in main and the code should run.  The output should look like below.
+Create a new frog named Frank.  Give him a location.  Have him jump twice.  Print him and then have him go visit Freddy.
+ Print him again to show his updated location.
+ */
+
 
 public class Frog {
     private String name;
@@ -10,8 +18,8 @@ public class Frog {
         name = n;
         xPos=x;
         yPos=y;
-       /* int z = 1;
-        int numSpace = z; */
+        int z = 1;
+        int a = 1;
         System.out.println(name);
     }
     public void setPos(int x, int y)	// accessor methods
@@ -39,8 +47,13 @@ public class Frog {
     {
         yPos=yPos+1;
     }
-    /* public void jump() {
-        xPos = xPos + */
+     public void jump(int z) {
+         xPos = xPos + z;
+         yPos = yPos + z;
+    }
+    public void visit(Frog fa) {
+        fa.
+
     }
     //TODO jump method move up and to the right
     //This method should take an integer argument.  This argument controls how many spaces
@@ -85,12 +98,3 @@ public class Frog {
 
 }
 
-/*  Output
-Freddy
-Yum
-Hi I am Freddy the frog and I live at 3 5
-Francine
-Yum
-Hi I am Freddy the frog and I live at 0 2
-Hi I am Francine the frog and I live at 0 2
-*/

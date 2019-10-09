@@ -1,4 +1,13 @@
 package com.company;
+/* 1) a default constructor.  A default constructor takes no arguments and sets appropriate default values for the attributes.
+2) a toString() method so that we may print our fractions.  They should look like “3/4” when printed.
+3) subtract() and multiply() methods.
+4) Uncomment the code in main(), add a call to multiply the 2 fractions.  Your code should run.  The output should look like below.
+3/4 + 4/5 = 31/20
+3/4 - 4/5 = -1/20
+3/4 * 4/5 = 12/20
+5) Create 2 new fractions and add them together.  Display the results.
+*/
 
 public class Fraction {
     private int numerator;		//attributes
