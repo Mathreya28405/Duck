@@ -85,12 +85,17 @@ public class Frog {
         Frog f2 = new Frog("Francine", -2,0);
         f2.eatFly();
         // TODO uncomment these to test new code.
-        //f2.jump(2);
-        //f1.visit(f2);
+        f2.jump(2);
+        f1.visit(f2);
         System.out.println(f1);
         System.out.println(f2);
 
-        /* Frog f3 */
+        Frog f3 = new Frog("Frank", 0, 0);
+        f3.jump(1);
+        f3.jump(1);
+        f3.visit(f1);
+        System.out.println(f3);
+
 
 
         // make a new frog named Frank.  have him jump twice and then go visit Freddy.
