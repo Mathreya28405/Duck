@@ -12,6 +12,7 @@ Math.abs(d1-d2) &lt;= .001)
 public class Line {
     private Point end1;
     private Point end2;
+    private Point midPoint;
 
     public Line(double x1, double y1, double x2, double y2)
     {
@@ -27,11 +28,20 @@ public class Line {
 
     public double distance()
     {
-        double a = ()
+        double a = Math.pow((end2.getX() - end1.getX()), 2);
+        double b = Math.pow((end2.getY() - end1.getY()), 2);
+        double c = Math.sqrt(a + b);
+
+        return c;
+
     }
     public Point midpoint()
     {
+        double d = (end1.getX() + end2.getX())/2;
+        double e = (end1.getY() + end2.getY())/2;
 
+        midPoint = new Point(d,e);
+        return midPoint;
     }
 
     public boolean sameLength(Line otherLine)
