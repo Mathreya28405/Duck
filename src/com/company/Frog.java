@@ -1,11 +1,5 @@
 package com.company;
-/* Also included is the frog class, also with a constructor, methods and main().  You must add the following:
-A jump() method.  The method takes an integer as an argument.  The frog will move this number of spaces up and to the right.  The method returns no value.
-A visit() method.   The method takes another Frog as an argument.  The frog will move to the location of its friend for a visit.
-Uncomment the code in main and the code should run.  The output should look like below.
-Create a new frog named Frank.  Give him a location.  Have him jump twice.  Print him and then have him go visit Freddy.
- Print him again to show his updated location.
- */
+//Mahathi Athreya 3B
 
 
 public class Frog {
@@ -96,9 +90,31 @@ public class Frog {
         f3.visit(f1);
         System.out.println(f3);
 
+        /* Output for given input:
+        First I checked to see if my jump method worked, so I tested just jump:
+        Freddy
+        Yum
+        Hi I am Freddy the frog and I live at 3 5
+        Francine
+        Yum
+        Hi I am Freddy the frog and I live at 0 2
+        Hi I am Francine the frog and I live at 0 2
+        Frank
+        Hi I am Frank the frog and I live at 2 2
 
+        Then I ran the whole thing:
+        Freddy
+        Yum
+        Hi I am Freddy the frog and I live at 3 5
+        Francine
+        Yum
+        Hi I am Freddy the frog and I live at 0 2
+        Hi I am Francine the frog and I live at 0 2
+        Frank
+        Hi I am Frank the frog and I live at 0 2
 
-        // make a new frog named Frank.  have him jump twice and then go visit Freddy.
+        :)
+         */
 
     }
 
