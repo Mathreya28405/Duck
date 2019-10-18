@@ -46,11 +46,12 @@ public class Line {
 
     public boolean sameLength(Line otherLine)
     {
-
+        double l1 = this.distance();
+        double l2 = otherLine.distance();
+        return Math.abs(l1-l2) <= .001;
     }
 
-    public double slope()
-    {
+    public double slope() {
         double m;
         m = (end2.getY()-end1.getY())/(end2.getX()-end1.getX());
         return m;
