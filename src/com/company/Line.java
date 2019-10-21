@@ -1,4 +1,6 @@
 package com.company;
+//Mahathi Athreya 3B
+
 /*
  Implement a method distance() of type double that computes the length of the line using the
 distance formula. You may find Math.pow() and Math.sqrt() helpful.
@@ -89,15 +91,25 @@ public class Line {
         System.out.println("Parallel? " + l1.parallel(l2));
 
 
-        //double dist = l1.distance();
-        //Point p1 = l1.midpoint();
+        double dist = l1.distance();
+        Point p1 = l1.midpoint();
 
-        //System.out.println("distance = " + dist);
-        //System.out.println("Midpoint = " + p1);
+        System.out.println("distance = " + dist);
+        System.out.println("Midpoint = " + p1);
 
-        //System.out.println("distance = " + l2.distance());
-        //System.out.println("Same length? " + l1.sameLength(l2));
+        System.out.println("distance = " + l2.distance());
+        System.out.println("Same length? " + l1.sameLength(l2));
 
     }
-
+    /*
+    Line with endpoints (-1.0, -3.0) and (2.0, 1.0)
+Slope = 1.3333333333333333
+Line with endpoints (0.0, 0.0) and (3.0, 4.0)
+Slope = 1.3333333333333333
+Parallel? true
+distance = 5.0
+Midpoint = (0.5, -1.0)
+distance = 5.0
+Same length? true
+     */
 }

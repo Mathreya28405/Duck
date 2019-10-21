@@ -1,4 +1,5 @@
 package com.company;
+//Mahathi Athreya 3B
 
 public class Point {
     private double xCoord;
